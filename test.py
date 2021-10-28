@@ -11,8 +11,9 @@ from kivy.resources import resource_add_path
 resource_add_path('/System/Library/Fonts')
 LabelBase.register(DEFAULT_FONT, 'ヒラギノ角ゴシック W0.ttc')
 
-class TextApp(App):
-  def build(self):
-      return Label(text='皆さん、こんにちは、今入力中です')
+class TestApp(App):
+  pass
 
-TextApp().run()
+
+if __name__ == '__main__':
+  TestApp().run()
