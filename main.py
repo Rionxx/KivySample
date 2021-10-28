@@ -30,7 +30,7 @@ class ImageWidget(Widget):
     self.source = './images/01.jpg'
   
   def buttonRandom(self):
-    self.source = f'0{ randint(1, 5) }.jpg'
+    self.source = f'0{randint(1, 5)}.jpg'
 
 class MonsterApp(App):
   def __init__(self, **kwargs):
